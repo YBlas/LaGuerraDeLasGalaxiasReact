@@ -1,0 +1,38 @@
+.Data {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Info {
+    background: rgba(250, 239, 176, 0.842);
+    text-align: center;
+    color: black;
+    margin: 30px;
+    max-width: 900px;
+    box-sizing: border-box;
+    border-color: rgb(51, 203, 241);
+    border-radius: 5px;
+}
+
+.List {
+    background: rgba(250, 239, 176, 0.842);
+    list-style-type: square;
+    border-radius: 5px;
+    text-align: start;
+    color: black;
+    margin: 0 auto;
+    min-width: fit-content(20em);
+    box-sizing: border-box;
+    border-color: rgb(51, 203, 241);
+    border-radius: 5px;
+}
+
+.List li {
+    margin-bottom: 6px;
+}
+
+.List :hover {
+    cursor: pointer;
+}
